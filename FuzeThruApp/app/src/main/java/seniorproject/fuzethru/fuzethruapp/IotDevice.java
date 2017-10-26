@@ -8,9 +8,9 @@ public class IotDevice {
     private final String apiVersion = "?api-version=2016-11-14";
 
     public IotDevice() {
-        hubName = "[IoT hub name]";
-        deviceName = "[IoT device name]";
-        sasToken = "[IoT SaS Token]";
+        hubName = "[IoT Hub Name]";
+        deviceName = "[IoT Hub Device Name]";
+        sasToken = "[Insert SAS Token Here]";
         uri = "https://" + hubName + ".azure-devices.net/twins/" + deviceName + "/";
     }
 
